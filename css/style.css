@@ -31,3 +31,77 @@ h1, h2, h3, h4, h5, h6, p {
     padding-right: 1rem;
     margin: 0 auto;
 }
+
+.header {
+    padding-top: 1.2rem;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__item {
+    display: inline-block;
+    width: 57px;
+    height: 57px;
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.logo__item span {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 52px;
+}
+
+.logo__content {
+    padding-left: 9px;
+}
+
+.logo__name {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--black);
+    margin-bottom: 3px;
+}
+
+.logo__desc {
+    font-size: .75rem;
+    color: var(--grey);
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    font-size: .87rem;
+    border-bottom: solid 2px transparent;
+    text-transform: uppercase;
+    padding: 0 0 4px 0;
+}
+
+.nav__link + .nav__link {
+    margin-left: 2rem;
+}
+
+.nav__link:hover {
+    border-bottom-color: var(--black);
+}
