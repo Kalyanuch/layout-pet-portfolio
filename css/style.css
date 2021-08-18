@@ -1,0 +1,33 @@
+:root {
+    --black: #2b2a2c;
+    --grey: #6a696b;
+    --grey-light: #dedede;
+    --grey-light-2: #717072;
+    --grey-footer: #8d8d8e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
