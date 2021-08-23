@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 *, *:before, *:after {
     box-sizing: border-box;
+    transition: all .3s ease;
 }
 
 .container {
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
+/* ------ Header start ------ */
 .header {
     padding-top: 1.2rem;
 }
@@ -105,3 +107,77 @@ h1, h2, h3, h4, h5, h6, p {
 .nav__link:hover {
     border-bottom-color: var(--black);
 }
+/* ------ Header end ------ */
+
+/* ------ Intro start ------ */
+.intro__wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--grey-light);
+    margin-top: 10px;
+}
+
+.intro__content {
+    padding: 6.6rem 0 8rem 0;
+}
+
+.intro__subtitle {
+    color: var(--black);
+    font-size: 2rem;
+    line-height: 1rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.intro__title {
+    color: var(--black);
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro__descr {
+    color: var(--grey);
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: .9rem;
+}
+
+.intro__social {
+    padding: 1.8rem 0;
+    display: flex;
+}
+
+.intro__social .intro__social_link + .intro__social_link {
+    margin-left: 10px;
+}
+
+.intro__social_link:hover {
+    transform: translateY(-5px);
+}
+
+.intro__button {
+    font-size: 1rem;
+    line-height: .95rem;
+    font-weight: normal;
+    color: var(--grey);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.25rem 1.87rem;
+    cursor: pointer;
+    border: solid 1px var(--grey);
+    border-radius: 1.87rem;
+    background-color: transparent;
+}
+
+.intro__button:hover {
+    background-color: #000;
+    color: #FFF;
+    opacity: .7;
+}
+
+.intro__image {
+    border-radius: 30px;
+}
+/* ------ Intro end ------ */
