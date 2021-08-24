@@ -296,3 +296,62 @@ h1, h2, h3, h4, h5, h6, p {
     bottom: 0;
 }
 /* ------ About stop ------ */
+
+/* ------ Reviews start ------ */
+.reviews {
+    background: #332f30 url("../images/reviews.png") center no-repeat;
+    padding: 2.6rem 0;
+    position: relative;
+    margin-bottom: 14.37rem;
+}
+
+.reviews__list {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.reviews__list p {
+    font-size: .9rem;
+    font-weight: 300;
+    color: #FFF;
+    line-height: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviews__author {
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 5;
+}
+
+.author__name {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: var(--black);
+}
+
+.author__group {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--grey-light-2);
+}
+
+.rating {
+    padding: 10px 0;
+}
+/*
+.rating img:last-child {
+    opacity: .6;
+}
+ */
+.rating img.not_available {
+    opacity: .6;
+}
+/* ------ Reviews stop ------ */
