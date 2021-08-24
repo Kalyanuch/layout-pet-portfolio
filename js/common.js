@@ -1,7 +1,5 @@
 $(function() {
-    //console.log('Wow, it works!!');
     $('[data-scrollto]').on('click', function(event) {
-        //e.stopPropagation();
         event.preventDefault();
 
         const blockId = $(this).data('scrollto');
@@ -10,5 +8,17 @@ $(function() {
         $('html, body').animate({
             scrollTop: blockOffset - 50
         }, 700);
+    });
+
+    $('[data-showmodal]').on('click', function(event) {
+        event.preventDefault();
+
+        const modalId = $(this).data('showmodal');
+
+        $(modalId).show();
+    });
+
+    $('.modal').on('click', function() {
+        $(this).hide();
     });
 });
