@@ -33,6 +33,26 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
+.btn_grey {
+    font-size: 1rem;
+    line-height: .95rem;
+    font-weight: normal;
+    color: var(--grey);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.25rem 1.87rem;
+    cursor: pointer;
+    border: solid 1px var(--grey);
+    border-radius: 1.87rem;
+    background-color: transparent;
+}
+
+.btn_grey:hover {
+    background-color: #000;
+    color: #FFF;
+    opacity: .7;
+}
+
 /* ------ Header start ------ */
 .header {
     padding-top: 1.2rem;
@@ -157,26 +177,6 @@ h1, h2, h3, h4, h5, h6, p {
     transform: translateY(-5px);
 }
 
-.intro__button {
-    font-size: 1rem;
-    line-height: .95rem;
-    font-weight: normal;
-    color: var(--grey);
-    text-align: center;
-    text-transform: uppercase;
-    padding: 1.25rem 1.87rem;
-    cursor: pointer;
-    border: solid 1px var(--grey);
-    border-radius: 1.87rem;
-    background-color: transparent;
-}
-
-.intro__button:hover {
-    background-color: #000;
-    color: #FFF;
-    opacity: .7;
-}
-
 .intro__image {
     border-radius: 30px;
 }
@@ -242,3 +242,57 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1rem;
 }
 /* ------ Works end ------ */
+
+/* ------ About start ------ */
+.about {
+    margin: 1.56rem 0 6.87rem 0;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem 0 4.62rem;
+}
+
+.about__img {
+    max-width: 50%;
+}
+
+.about__content {
+    margin-left: 6rem;
+    padding-top: 4.68rem;
+    position: relative;
+    width: 50%;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 2.81rem;
+    line-height: 2.81rem;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: .3rem;
+}
+
+.about__subtitle {
+    font-weight: bold;
+    font-size: 5.5rem;
+    line-height: 100%;
+    color: var(--grey-light);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.about__content p {
+    font-size: .75rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    color: var(--grey-light-2);
+}
+
+.about__button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* ------ About stop ------ */
