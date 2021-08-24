@@ -113,3 +113,62 @@
         margin-top: 25px;
     }
 }
+
+@media(max-width: 767px) {
+    .header__logo, .footer__nav {
+        display: none;
+    }
+
+    .header__nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        padding: 20px 0;
+        border-bottom: solid 1px var(--black);
+    }
+
+    .nav__link {
+        font-size: 1rem;
+    }
+
+    .nav__link + .nav__link {
+        margin-left: .2rem;
+    }
+
+    .works__item {
+        width: 100%;
+    }
+
+    .works__title {
+        margin-bottom: 35px;
+    }
+
+    .about__wrapper {
+        flex-wrap: wrap-reverse;
+    }
+
+    .courses__item {
+        width: 100%;
+    }
+
+    .reviews__list {
+        width: 100%;
+    }
+
+    .footer__social {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .copyright {
+        font-size: .5rem;
+    }
+
+    .footer__info {
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+}
