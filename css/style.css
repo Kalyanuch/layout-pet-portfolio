@@ -440,3 +440,62 @@ a.item__more {
     text-decoration: none;
 }
 /* ------ Courses stop ------ */
+
+/* ------ Footer start ------ */
+.footer {
+    background-color: var(--black);
+    padding: 1.2rem 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    font-size: .9rem;
+    font-weight: normal;
+    color: var(--grey-footer);
+}
+
+.footer__social {
+    border-left: solid 1px #413f41;
+    margin-left: 1.25rem;
+    padding-left: 1rem;
+}
+
+.footer__social_link {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.footer__social_link:hover {
+    opacity: 1;
+}
+
+.footer__social_link + .footer__social_link {
+    margin-left: 1rem;
+}
+
+.footer__nav a {
+    font-size: .9rem;
+    font-weight: normal;
+    line-height: 1rem;
+    text-decoration: none;
+    color: var(--grey-footer);
+}
+
+.footer__nav a:hover {
+    color: #FFF;
+}
+
+.footer__nav a + a {
+    margin-left: 1rem;
+}
+/* ------ Footer stop ------ */
